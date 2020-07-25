@@ -10,7 +10,7 @@ public class loginTest {
 		  System.setProperty("webdriver.chrome.driver","C:\\Suyanka\\Suyanka\\Testing\\chromedriver_win32 (2)\\chromedriver.exe" );
 		WebDriver driver = new ChromeDriver();
 		System.out.println("executing login test");
-		  
+		driver.quit();
 		  
 	  }
 	}
